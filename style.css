@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap');
+
+
+*{
+    font-family: 'Zen Kaku Gothic Antique',sans-serif;
+}
+section {
+    height: 300px;
+    background-color:white;
+}
+.logo
+{
+    height: 100px;
+    width: 100px;
+}
+.hero {
+    background-color: #131312;
+    height: 100vh;
+    color: #fff;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+ display: flex;
+ list-style-type: none;
+ width: 600px;
+ justify-content: space-around;
+}
+
+li{
+ /* width: 200px;    */
+ text-decoration: none;
+}
+
+
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+p{
+    font-weight: 600;
+    margin:0;
+}
+.hero-area
+{
+    display: flex;
+    height: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.button
+{
+    width: 140px;
+    height: 40px;
+    background-color: #123141;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    border: solid 4px white ;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+
+.button:hover {
+    background-color: #123141;
+}
+.button:active
+{
+    background-color: darkgoldenrod;
+    
+}
+.socials 
+{
+    padding-bottom: 200px;
+}
+.socials img
+{
+    
+    height: 40px;
+    width: 40px;
+   
+}
+.social a img {
+    margin-left: 700px;
+    
+}
+.social
+{
+    margin: 20px;
+}
+/* section 2 */
+
+
+
+.sub-section
+{
+   display: flex;
+   justify-content:last baseline;
+   padding: 40px;
+ /* background-color:rgb(215,25,225); */
+
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+h2{
+    font-size: 40px;
+    margin-bottom:-2px;
+    color: white;
+}
+.subtext
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+ .pic
+{
+    width: 200px;
+    height: 200px; 
+    border-radius: 600px;
+    margin-left: 500px;
+    border: 5px solid black;
+} 
+.sub-section
+{
+    height: 700px;
+}
+.sub-section p {
+    font-size: larger;
+}
+.pic-container
+{
+    display: flex;
+    align-items: center;
+}
+.project-card
+{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
+    margin: 10px;
+    background-color:rgb(105,105,105);
+    border-radius: 10px;
+}
+.sub-section-alternative
+{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color:#131312;
+}
+.project-container
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.project-pics
+{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 250px;
+}
+.pic
+{
+    margin-bottom: 250px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.high-light
+{
+    font-size: 50px;
+}
+.project-links
+{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact
+{
+    color: #fff;
+    display: flexbox;
+    justify-content: center;
+    margin: 0;
+}
+.labels
+{
+    color: #fff;
+    margin-bottom: 300px;
+}
+
+/* footer */
+footer{
+    height:300px;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    background-color:black;
+    border-style:dashed;
+}
+label
+{
+ font-weight: 1000;   
+}
+.form
+{
+    
+    height: 50px;
+    width: 500px;
+    border: 5px solid grey;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    border: 5px solid grey;
+    border-radius: 25px;
+    justify-content: center;
+}
