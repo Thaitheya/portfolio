@@ -222,6 +222,7 @@ footer{
     padding: 80px;
     background-color:black;
     border-style:dashed;
+    background-image: url(../src/form.jpeg);
 }
 label
 {
@@ -245,3 +246,4 @@ label
     border-radius: 25px;
     justify-content: center;
 }
+
